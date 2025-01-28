@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#080808]">
+    <header
+      class="max-h-24 px-[20px] flex items-center justify-between fixed w-full bg-black/85 backdrop-blur-sm z-50"
+    >
+      <a href="#"
+        ><img src="./img/Group 2.png" class="h-[130px] w-[134px] ml-4" alt=""
+      /></a>
+      <!-- lg is media query in we can use lg:space-x-10 space will increase after certain pixel  -->
+      <nav
+        class="hidden md:block text-white space-x-10 lg:space-x-14 mr-9 lg:text-xl"
+      >
+        <a class="font-bold" href="#hero">Home</a>
+        <a class="font-bold" href="#how-it-works">How it works</a>
+        <a class="font-bold" href="#aboutUs">about</a>
+        <a class="font-bold" href="#Testimonials">testomials</a>
+        <a class="font-bold" href="">contact us</a>
+      </nav>
+      <button
+        id="hamburger"
+        class="block md:hidden text-white text-4xl open-menu:bg-red-500"
+      >
+        ☰
+      </button>
+    </header>
+    <section
+      id="hero"
+      class="bg-[url('./img/backgroundImage.png')] bg-no-repeat bg-right h-lvh"
+    >
+      <div
+        class="flex flex-col md:flex-row text-white items-center justify-between px-60"
+      >
+        <h1 class="text-6xl font-bold leading-[80px] ml-7">
+          The <br />Own <br />Company
+        </h1>
+        <div class="max-w-lg">
+          <img class="max-w-full mt-36 mr-7" src="./img/hero.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works" class="h-lvh text-white">
+      <h1 class="text-3xl text-center md:text-4xl font-bold mt-0.5 md:pt-28">
+        Have they finally made the <br />perfect workout shoe?
+      </h1>
+      <div id="shoeimg" class="pt-40 xl:pt-9 max-w-xl mx-auto relative">
+        <img
+          class="max-w-full rotate-12 xl:rotate-0"
+          src="./img/shoes2.png"
+          alt=""
+        />
+        <div
+          id="arrow1"
+          class="min-w-40 md:max-w-60 max-h-60 absolute top-8 xl:top-0 -left-20 xl:-left-64"
+        >
+          <h1 class="text-xl xl:text-2xl font-bold mb-2">THE HEEL</h1>
+          <p class="">
+            The heel is well-built, has appropriate elevation and is not too
+            rigid.
+          </p>
+          <img
+            class="max-w-40 ml-10 xl:ml-28"
+            src="./img/arrow-1 1.png"
+            alt=""
+          />
+        </div>
+        <div id="arrow2" class="max-w-60 max-h-60 absolute top-7 -right-40">
+          <img
+            class="max-w-40 -ml-36 xl:-ml-28 rotate-[138deg] xl:rotate-0 translate-y-36 xl:translate-y-0"
+            src="./img/arrow-2 1.png"
+            alt=""
+          />
+
+          <h1 class="text-2xl font-bold -ml-9 xl:-ml-0 -mt-28 xl:-mt-24">
+            THE FRONT
+          </h1>
+          <p class="-ml-9 xl:-ml-0">
+            The front is comfortable <br />and adjusts well to the shape of your
+            foot.
+          </p>
+        </div>
+        <div
+          id="arrow3"
+          class="min-w-40 md:max-w-60 max-h-60 absolute bottom-1"
+        >
+          <img class="max-w-36 ml-28 -mb-20" src="./img/arrow-3 1.png" alt="" />
+
+          <h1 class="text-2xl font-bold -ml-5">TRACTION</h1>
+          <p class="-ml-10">
+            The shoe has good traction and doesn't slip easily.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="aboutUs" class="space-x-20 flex max-h-lvh">
+      <div
+        class="max-w-[50%] shrink-0 max-h-[39rem] bg-[url('./img/about-us.png')] bg-no-repeat self-start"
+      >
+        <img
+          src="./img/about-shoe-company 1.png"
+          alt=""
+          class="max-w-[25rem]"
+        />
+      </div>
+      <div class="text-white space-y-4 mt-32 text-xl max-w-[50%]">
+        <h1 class="text-6xl font-bold">About Us!</h1>
+        <p>
+          For each one of those shoe sweethearts out there,
+          <span class="font-bold">THE SHOE COMPANY </span> offer the one-stop
+          goal to pick the correct match of footwear.
+        </p>
+        <p>
+          Gone are the days when you needed to go from store to store to locate
+          the correct style and size for yourself.
+        </p>
+        <p>
+          At <span class="font-bold">THE SHOE COMPANY</span>, you can locate a
+          vast accumulation of dashing footwear in all sizes and styles, all
+          inside a couple of snaps.
+        </p>
+        <p>
+          Simple right? Not just we are here to spare your time, we are putting
+          forth you the most dazzling footwear alternatives from all the
+          first-rate brands like DAVINCHI, PRINCESS, and SIGNATURE. At
+          ‘Organization Name’, we offer men, ladies, and child’s shoes perfect
+          for any and each event
+        </p>
+      </div>
+    </section>
+    <section></section>
+  </body>
+</html>
